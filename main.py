@@ -25,12 +25,17 @@
 #print(p)
 #print(a,b,c,d)
 
-smth new
+#and-
+#or-
 
+hours= int(input("enter hours"))
 
-
-
-
+if 12 < hours <= 24:
+    print("pm")
+elif hours >=0 and hours <=12:
+    print("AM")
+else:
+    print("incorrent")
 
 
 
